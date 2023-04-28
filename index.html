@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>HYUI帝国·元帅</title>
+ <style>
+ *{
+ margin:0;
+ padding:0;
+ }
+body{
+  background:#b6ebff;
+  }
+h1{
+  
+  margin-top:130px;
+  text-align:center;
+  color:#ffa9d4;
+  }
+button{
+  width:50px;
+  background:#edffb0;
+  text-align:center;
+  border-bottom:0px;
+  border-top:0px;
+  border-right:0px;
+  border-left:0px;
+  }
+.as{
+  position:absolute;
+  left:126px;
+  margin-top:15px;
+  }
+button:hover{
+  border:2.5px solid red;
+  background:#006791;
+  }
+.b{
+  position:absolute;
+   top:2px;
+  left:98px;}
+p{
+  text-align:center;
+  }
+ </style>
+  </head>
+  <body>	
+    <h1>你愿意做我女友吗</h1>
+    <p>来自HYIU帝国·元帅的提问</p>
+	 <div class="as">
+  <button class="a" onclick="a()">不愿意</button>
+  <button class="b" onclick="b()">愿意</button>
+  </div>
+  <script>
+  function a(){
+  let a=document.querySelector(".a")
+  a.style.display="none"
+  }
+  function b(){
+ window.location.href="1.html";
+
+  }
+  </script>
+  </body>
+</html>
